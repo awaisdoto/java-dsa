@@ -55,6 +55,12 @@ let's try to implement it
 // we'll use Array  of arraylist
 
 // ArrayList<Edge> graph [v]
+/* 
+benefits of using Adjacency List: 
+- No extra space is used, only space necessary for storing the edges and vertices is used
+- Time is optimized, O(x) where x is the number of edges connected to a vertex 
+- Adding a vertex is easy, just add a new list to the array
+*/
     static class Edge {
         int source;
         int destination;
@@ -85,14 +91,25 @@ let's try to implement it
         graph[3].add(new Edge(3,1));
 
     }
+
+
+    
     public static void main(String[] args) {
         System.out.println("Hello World");
 
         int V =  4;  // number of vertices
         ArrayList<Edge> graph [] = new ArrayList[V];
         createGraph(graph);
+
+        // printing 2's neighbors
+        for (int i =0 ; i<graph[2].size(); i++)
+        {
+            Edge  = graph[2].get(i);
+            System.out.println("Source: " + e.source + " Destination: " + e.destination);
+
+        }    
         
-    }
+        }
 }
 
 
