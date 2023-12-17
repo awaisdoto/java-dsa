@@ -104,7 +104,7 @@ benefits of using Adjacency List:
         // printing 2's neighbors
         for (int i =0 ; i<graph[2].size(); i++)
         {
-            Edge  = graph[2].get(i);
+             Edge e = graph[2].get(i);
             System.out.println("Source: " + e.source + " Destination: " + e.destination);
 
         }    
