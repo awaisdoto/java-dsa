@@ -1,4 +1,4 @@
-import java.util.ArrayList
+import java.util.ArrayList;
 // we are going to be learning about graphs today
 
 /* 
@@ -28,7 +28,7 @@ There are 4 famous ways to create a graph:
 
 */
 
-public  class main {
+public  class practice {
 
 
     // Adjacency List
